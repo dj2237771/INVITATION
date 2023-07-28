@@ -144,13 +144,13 @@ function App() {
         </article>
         <div className="phone-small">
           <figure className="image-2">
-            <img src={image2} alt="my_photo" />
+            <img src={image3} alt="my_photo" />
             <figcaption>A Wonderful Day</figcaption>
           </figure>
         </div>
         <div className="phone">
           <figure style={{ transform: "rotate(-0.5deg)" }} className="image-2">
-            <img src={image2} alt="my_photo" />
+            <img src={image3} alt="my_photo" />
             <figcaption>A Wonderful Day</figcaption>
           </figure>
         </div>
