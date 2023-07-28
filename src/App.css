@@ -406,7 +406,8 @@ footer p {
 }
 
 figure {
-  width: 400px;
+  max-width: 438px;
+  min-width: 375px;
   height: 503px;
   position: relative;
   background-color: #eaeaea;
