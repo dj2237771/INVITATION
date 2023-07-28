@@ -3,6 +3,10 @@ import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHeart } from "@fortawesome/free-solid-svg-icons";
 import styled from "styled-components";
+import image1 from "./Assets/L1000880.JPG";
+import image2 from "./Assets/L1001136.JPG";
+import image3 from "./Assets/L1000872.JPG";
+
 const MyStyledText = styled.p`
   font-family: "Josefin Sans", sans-serif; /* Replace 'Josefin Sans' with the desired font family */
   font-weight: 300;
@@ -37,7 +41,7 @@ function App() {
           </article>
           <div className="img">
             <figure className="image-1">
-              <img src="Assets/L1001136.JPG" alt="my_photo" />
+              <img src={image1} alt="my_photo" />
               <figcaption>A Wonderful Day</figcaption>
             </figure>
           </div>
@@ -49,7 +53,7 @@ function App() {
       <section className="focus">
         <div className="phone">
           <figure className="image-2">
-            <img src="Assets/L1000880.JPG" alt="my_photo" />
+            <img src={image2} alt="my_photo" />
             <figcaption>A Wonderful Day</figcaption>
           </figure>
         </div>
@@ -97,7 +101,7 @@ function App() {
         <div className="phone-small">
           <figure className="image-2">
             <img
-              src="Assets/L1000880.JPG"
+              src={image2}
               alt="my_photo"
               style={{ transform: "rotate(-0.5deg)" }}
             />
@@ -140,13 +144,13 @@ function App() {
         </article>
         <div className="phone-small">
           <figure className="image-2">
-            <img src="Assets/L1000872.JPG" alt="my_photo" />
+            <img src={image2} alt="my_photo" />
             <figcaption>A Wonderful Day</figcaption>
           </figure>
         </div>
         <div className="phone">
           <figure style={{ transform: "rotate(-0.5deg)" }} className="image-2">
-            <img src="Assets/L1000872.JPG" alt="my_photo" />
+            <img src={image2} alt="my_photo" />
             <figcaption>A Wonderful Day</figcaption>
           </figure>
         </div>
