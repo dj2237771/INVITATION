@@ -219,7 +219,7 @@ li {
 .links a {
   text-decoration: none;
   color: #ecb20d;
-  padding-top: 50px;
+  padding-top: 0px;
   font-weight: 500;
   font-size: 20px;
   line-height: 25px;
@@ -393,6 +393,9 @@ footer p {
   .links {
     display: flex;
   }
+  .link-href {
+    padding-top: 0;
+  }
   li {
     margin: auto;
   }
@@ -403,7 +406,7 @@ footer p {
 }
 
 figure {
-  width: 400px;
+  width: 436px;
   height: 503px;
   position: relative;
   background-color: #eaeaea;

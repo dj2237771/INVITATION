@@ -1,7 +1,7 @@
 import "./App.css"; // Create an App.css file and put the CSS styles from the original styles.css in it
 import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHeart } from "@fortawesome/free-solid-svg-icons";
+import { faHeart, faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import styled from "styled-components";
 import image1 from "./Assets/L1000880.JPG";
 import image2 from "./Assets/L1001136.JPG";
@@ -81,7 +81,14 @@ function App() {
           <p className="focus-info">
             27th December, 3pm
             <br />
-            <a href="https://www.google.com/maps/dir//W8VX%2BVCP,+Ettumanoor-Ernakulam+Rd+Thrippunithura,+East+Fort+Gate,+Junction,+Kochi,+Kerala+682301,+India/@25.9911773,0.3167477,4z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3b08736e37f4faf1:0x13bf049ee5a83f07!2m2!1d76.3485766!2d9.944715?entry=ttu">
+            <a
+              class="link-href"
+              href="https://www.google.com/maps/dir//W8VX%2BVCP,+Ettumanoor-Ernakulam+Rd+Thrippunithura,+East+Fort+Gate,+Junction,+Kochi,+Kerala+682301,+India/@25.9911773,0.3167477,4z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3b08736e37f4faf1:0x13bf049ee5a83f07!2m2!1d76.3485766!2d9.944715?entry=ttu"
+            >
+              <p>
+                <FontAwesomeIcon icon={faLocationDot} />
+              </p>
+              <br />
               Ernakulam Rd, Tripunithura
             </a>
           </p>
@@ -93,7 +100,14 @@ function App() {
           <p className="focus-info">
             27th December, 5.30pm
             <br />
-            <a href="https://www.google.com/maps/dir//SHOBA+AUDITORIUM27th+December,+5.30pmThiruvankulam,+Tripunithura+,+Ernakulam/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3b0875407245fde1:0x600340d17d84c3e9?sa=X&ved=2ahUKEwjHqpqqm6-AAxUtWEEAHVlbAisQ9Rd6BAgzEAA&ved=2ahUKEwjHqpqqm6-AAxUtWEEAHVlbAisQ9Rd6BAhCEAU">
+            <a
+              class="link-href"
+              href="https://www.google.com/maps/dir//SHOBA+AUDITORIUM27th+December,+5.30pmThiruvankulam,+Tripunithura+,+Ernakulam/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3b0875407245fde1:0x600340d17d84c3e9?sa=X&ved=2ahUKEwjHqpqqm6-AAxUtWEEAHVlbAisQ9Rd6BAgzEAA&ved=2ahUKEwjHqpqqm6-AAxUtWEEAHVlbAisQ9Rd6BAhCEAU"
+            >
+              <p>
+                <FontAwesomeIcon icon={faLocationDot} />
+              </p>
+              <br />
               Tripunithura, Ernakulam Thiruvankulam
             </a>
           </p>
@@ -119,7 +133,15 @@ function App() {
           <p className="focus-info">
             30th December, 11.30pm
             <br />
-            <a href="https://www.google.com/maps/dir//-ST.+MARY'S+FORANE+CHURCH30th+December,+11.30pmWynad+Rd,+Punnakkadu,+Kodenchery,+Keral/@26.6813271,0.2448596,4z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3ba66bc2ce587d31:0x88c9052303fbc6ec!2m2!1d76.004858!2d11.433076?entry=ttu">
+            <a
+              class="link-href"
+              href="https://www.google.com/maps/dir//-ST.+MARY'S+FORANE+CHURCH30th+December,+11.30pmWynad+Rd,+Punnakkadu,+Kodenchery,+Keral/@26.6813271,0.2448596,4z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3ba66bc2ce587d31:0x88c9052303fbc6ec!2m2!1d76.004858!2d11.433076?entry=ttu"
+            >
+              {" "}
+              <p>
+                <FontAwesomeIcon icon={faLocationDot} />
+              </p>
+              <br />
               Wynad Rd, Punnakkadu, Kodenchery, Kerala
             </a>
           </p>
@@ -131,7 +153,15 @@ function App() {
           <p className="focus-info">
             30th December, 5.30pm
             <br />
-            <a href="https://www.google.com/maps/dir//K+H+Club/@26.6831466,0.2513663,4z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3ba66b953fc5d10f:0x395d41dda8f8460f!2m2!1d76.017358!2d11.4368356?entry=ttu">
+            <a
+              class="link-href"
+              href="https://www.google.com/maps/dir//K+H+Club/@26.6831466,0.2513663,4z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3ba66b953fc5d10f:0x395d41dda8f8460f!2m2!1d76.017358!2d11.4368356?entry=ttu"
+            >
+              {" "}
+              <p>
+                <FontAwesomeIcon icon={faLocationDot} />
+              </p>
+              <br />
               Thiruvambady - Adivaram Rd, Kodenchery, Kerala
             </a>
           </p>{" "}
